@@ -1,0 +1,224 @@
+/*2*/
+body{
+    /*2a: color of text red*/
+    color: red;
+    /*2b: background image blue*/
+    background-image:url("../assets/images/dark-wood2.jpg");
+    /*2c: font family sans-serif*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*2d: Margin at 0 for all sides*/
+    margin:0;   
+}
+/*3*/
+div.container{
+    /*3a*/
+    width: 950px;
+    /*3b*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*3c: center the div*/
+    margin-left: auto;
+    margin-right: auto;
+    /*3d: background color*/
+    background-color: rgb(3, 43, 43);
+
+}
+/*4*/
+.content{
+    /*4a: line height of the text*/
+    line-height: 1.4em;
+    /*4b: padding to all the sides*/
+    padding: 10px;
+}
+/*5: any colour*/
+header,nav,footer{
+    color: aliceblue;
+    background-color: rgb(3, 43, 43);
+}
+
+/* 6Style the unordered list inside the <nav> element */
+nav ul {
+    /*6a. 0 margin from all sides */
+    margin: 0;
+    /*6b. 5px padding from all sides */
+    padding: 5px;
+}
+
+/* Style the list items inside the <nav> element */
+nav li {
+    /* 7b. Add margin of 40px to the right of each list item */
+    margin-right: 40px;
+    /* 7c. Display all navigation items as Uppercase */
+    text-transform: uppercase;
+    /* 7a. Display the list items horizontally */
+    display: inline; /* or 'inline-block' if you want them inline but with block-level properties */
+}
+
+/*8:Add the 4 pseudo classes effect to the anchor tags/elements of the main navigation list items, the colour should be changed*/
+/*8a*/
+a:link{
+    color:red;
+}
+/*8b*/
+a:visited{
+    color: brown;
+}
+/*8c*/
+a:hover{
+    background-color: red;
+    color: black;
+}
+/*8d*/
+a:active{
+    color: green;
+}
+
+/*9: Style any anchor <a> element*/
+a{
+    /*9a: any colour*/
+    color: white;
+    /*No underline*/
+    text-decoration: none;
+}
+
+/*10*/
+h1,h2,h3{
+    /*a: have margin of 10px for all the sides*/
+    margin: 10px;
+    /*b: With Uppercase letters*/
+    text-transform: uppercase;
+}
+
+h1{
+    /*c: Different dark/light colour*/
+    color: whitesmoke;
+}
+h2{
+    /*c: Different dark/light colour*/
+    color: rgb(162, 157, 157);
+}
+h3{
+    /*c: Different dark/light colour*/
+    color: rgb(79, 77, 77);
+}
+
+/*11*/
+.img-centre{
+    /*Centre the image horizontally*/
+    display: block;
+    /*Having margin of 5px from the top and bottom*/
+    margin: 5px auto;
+    /*padding of 2px to all the sides*/
+    padding: 2px;
+}
+
+/* 12 */
+audio, video {
+    /*Centre any audio or video element*/
+    display: block;
+    /*margin of 10px from the top and bottom*/
+    margin: 10px auto;
+}
+
+/* 13 */
+table {
+    /*The width is 800px*/
+    width: 800px;
+    /*Centre the table horizontally with 10px of margining from the top and bottom sides*/
+    margin: 10px auto;
+    /*The table border has to be collapsed*/
+    border-collapse: collapse;
+}
+
+/* 14 */
+th, td {
+    /*Having a border with any settings you like*/
+    border: 2px solid black;
+    /*Padding of 2px from the top/bottom and 5px from the left/right*/
+    padding: 2px 5px;
+    /*Any background colour*/
+    background-color: lightgray;
+}
+
+/* 15 */
+th, tfoot td {
+    /*Uppercase letters*/
+    text-transform: uppercase;
+    /*Any background colour*/
+    background-color: lightgray;
+    /*Any colour*/
+    color: darkgray;
+}
+
+/* 16 */
+dt {
+    /*Make it bold*/
+    font-weight: bold;
+}
+
+/* 17 */
+footer {
+    /*Change the font size to be 80% of the default font size or of the font size of the body*/
+    font-size: 80%;
+    /*Align your text to the centre of the table*/
+    text-align: center;
+    /*Add 1px of padding from the top/bottom and 0 from the right/left*/
+    padding: 1px 0;
+}
+
+/* 18 */
+iframe {
+    /*Centre the iframe horizontally*/
+    display: block;
+    /*Add margin of 10px for top/bottom*/
+    margin: 10px auto;
+}
+
+/* 19 */
+fieldset {
+    /*Add width of 500px*/
+    width: 500px;
+    /*Add margin of 20px for top/bottom and centre the fieldset horizontally*/
+    margin: 20px auto;
+    /*Add border with any style you prefer*/
+    border: 2px solid black;
+    /*Add background colour*/
+    background-color: rgb(106, 174, 197);
+}
+
+/* 20 */
+legend {
+    /*Italic font style*/
+    font-style: italic;
+    /*Different front and background colour*/
+    color:rgb(4, 132, 90);
+    background-color: lightyellow;
+    /*Margin of 0 from the top/bottom and 10px from the left/right*/
+    margin: 0 10px;
+    /*Padding of 0 from top/bottom and 5px from the left/right*/
+    padding: 0 5px;
+    /*Give it a rounded border with any size or setting you prefer*/
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* 21 */
+input[type="submit"] {
+    /*Border with any style you like*/
+    border: 2px solid blue;
+    /*Padding of 5px for all the sides*/
+    padding: 5px;
+    /*Any background colour you prefer*/
+    background-color: lightgreen;
+    /*Any colour you prefer*/
+    color: darkblue;
+}
+
+/* 22 */
+input[type="submit"]:hover {
+    /*Change its text colour and its background colour*/
+    background-color: yellow;
+    color: red;
+    /*Change the mouse pointer to look like a hand*/
+    cursor:pointer;
+}
