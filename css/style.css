@@ -57,12 +57,12 @@ a:link{
 }
 /*8b*/
 a:visited{
-    color: brown;
+    color: rgb(164, 166, 167);
 }
 /*8c*/
 a:hover{
-    background-color: yellow;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
 }
 /*8d*/
 a:active{
@@ -95,7 +95,7 @@ h2{
 }
 h3{
     /*c: Different dark/light colour*/
-    color: rgb(180, 175, 175);
+    color: rgb(191, 191, 191);
 }
 
 /*11*/
@@ -137,7 +137,7 @@ th, td {
 }
 
 /* 15 */
-th, tfoot td {
+table th, tfoot td {
     /*Uppercase letters*/
     text-transform: uppercase;
     /*Any background colour*/
@@ -213,8 +213,8 @@ input[type="submit"] {
 /* 22 */
 input[type="submit"]:hover {
     /*Change its text colour and its background colour*/
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(85, 255, 0);
     /*Change the mouse pointer to look like a hand*/
     cursor:pointer;
 }
