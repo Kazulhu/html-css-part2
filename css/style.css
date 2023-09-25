@@ -211,14 +211,14 @@ input[type="submit"] {
     /*Any background colour you prefer*/
     background-color: lightgreen;
     /*Any colour you prefer*/
-    color: darkblue;
+    color: blue;
 }
 
 /* 22 */
 input[type="submit"]:hover {
     /*Change its text colour and its background colour*/
-    background-color: yellow;
-    color: red;
+    background-color: white;
+    color: black;
     /*Change the mouse pointer to look like a hand*/
     cursor:pointer;
 }
