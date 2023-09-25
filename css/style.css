@@ -36,7 +36,7 @@ header,nav,footer{
     background-color: rgb(3, 43, 43);
 }
 
-/* 6Style the unordered list inside the <nav> element */
+/* 6: Style the unordered list inside the <nav> element */
 nav ul {
     /*6a. 0 margin from all sides */
     margin: 0;
