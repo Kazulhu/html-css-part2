@@ -61,8 +61,8 @@ a:visited{
 }
 /*8c*/
 a:hover{
-    background-color: black;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 /*8d*/
 a:active{
