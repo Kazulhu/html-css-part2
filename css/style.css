@@ -57,7 +57,7 @@ nav li {
 /*8:Add the 4 pseudo classes effect to the anchor tags/elements of the main navigation list items, the colour should be changed*/
 /*8a*/
 a:link{
-    color:red;
+    color:yellow;
 }
 /*8b*/
 a:visited{
